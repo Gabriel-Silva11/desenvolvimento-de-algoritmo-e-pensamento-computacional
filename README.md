@@ -4,9 +4,9 @@ Repositório destinado aos projetos desenvolvidos durante os estudos de **Desenv
 
 Os projetos apresentam exercícios práticos envolvendo lógica de programação, algoritmos, estruturas de repetição e implementação em diferentes ferramentas e linguagens.
 
-## 📂 Projetos
+##  Projetos
 
-### 🧮 Calculadora — Flowgorithm
+###  Calculadora — Flowgorithm
 
 Projeto desenvolvido no **Flowgorithm** com o objetivo de praticar a construção de algoritmos por meio de fluxogramas.
 
@@ -17,11 +17,11 @@ Projeto desenvolvido no **Flowgorithm** com o objetivo de praticar a construçã
 - Estruturas condicionais
 - Lógica de programação
 
-📁 Pasta: `calculadora-flowgorithm`
+ Pasta: `calculadora-flowgorithm`
 
 ---
 
-### 🧮 Calculadora — C
+###  Calculadora — C
 
 Implementação de uma calculadora utilizando a linguagem **C**, aplicando conceitos básicos de programação e lógica.
 
@@ -32,11 +32,11 @@ Implementação de uma calculadora utilizando a linguagem **C**, aplicando conce
 - Estruturas condicionais
 - Organização de código
 
-📁 Pasta: `calculadora-c`
+ Pasta: `calculadora-c`
 
 ---
 
-### 🔄 While em C
+###  While em C
 
 Projeto desenvolvido em **C** com foco na utilização da estrutura de repetição `while`.
 
@@ -47,25 +47,24 @@ Projeto desenvolvido em **C** com foco na utilização da estrutura de repetiç�
 - Controle de fluxo
 - Lógica de programação
 
-📁 Pasta: `while-em-c`
+ Pasta: `while-em-c`
 
-## 🛠️ Tecnologias e ferramentas
+##  Tecnologias e ferramentas
 
 - Flowgorithm
 - Linguagem C
 - Git
 - GitHub
 
-## 🎯 Objetivo
+##  Objetivo
 
 Reunir projetos acadêmicos desenvolvidos durante o aprendizado dos fundamentos de programação, demonstrando a evolução na construção de algoritmos e na resolução de problemas computacionais.
 
-## 👨‍💻 Autor
+##  Autor
 
 **Gabriel Silva**
 
 Estudante de Ciência da Computação.
 
 ---
-
-⭐ Repositório criado para fins acadêmicos e de aprendizado.
+ Repositório criado para fins acadêmicos e de aprendizado.

@@ -1,10 +1,10 @@
-# 🧮 Calculadora Matemática em C
+#  Calculadora Matemática em C
 
 Uma calculadora interativa de console desenvolvida em **C**, com 20 operações matemáticas úteis no dia a dia.
 
 **Autor:** Gabriel da Silva
 
-## 🎯 Objetivo
+##  Objetivo
 
 Este projeto foi desenvolvido com o intuito de praticar e consolidar conceitos fundamentais da linguagem C, como:
 
@@ -16,19 +16,19 @@ Este projeto foi desenvolvido com o intuito de praticar e consolidar conceitos f
 
 É um exercício ideal para estudantes que estão iniciando na programação e desejam aplicar a lógica de programação em um programa completo e interativo.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 | Opção | Operação |
 |-------|----------|
-| 1 | Soma |
-| 2 | Subtração |
-| 3 | Multiplicação |
-| 4 | Divisão (com verificação de divisão por zero) |
-| 5 | Resto da divisão |
-| 6 | Potência |
-| 7 | Raiz quadrada |
-| 8 | Média de 3 números |
-| 9 | Porcentagem |
+| 1  | Soma |
+| 2  | Subtração |
+| 3  | Multiplicação |
+| 4  | Divisão |
+| 5  | Resto da divisão |
+| 6  | Potência |
+| 7  | Raiz quadrada |
+| 8  | Média de 3 números |
+| 9  | Porcentagem |
 | 10 | Área do quadrado |
 | 11 | Área do retângulo |
 | 12 | Área do triângulo |
@@ -36,13 +36,13 @@ Este projeto foi desenvolvido com o intuito de praticar e consolidar conceitos f
 | 14 | Perímetro do quadrado |
 | 15 | Perímetro do retângulo |
 | 16 | Circunferência do círculo |
-| 17 | Teorema de Pitágoras (cálculo da hipotenusa) |
+| 17 | Teorema de Pitágoras |
 | 18 | Conversão de Celsius para Fahrenheit |
-| 19 | Juros simples (juros + montante) |
+| 19 | Juros simples |
 | 20 | Cálculo de IMC |
-| 0 | Sair |
+| 0  | Sair |
 
-## 🛠️ Requisitos
+##  Requisitos
 
 - Compilador C (GCC recomendado)
 - Biblioteca matemática (`math.h`)

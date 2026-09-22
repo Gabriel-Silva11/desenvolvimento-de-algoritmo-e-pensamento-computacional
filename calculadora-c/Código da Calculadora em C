@@ -1,0 +1,276 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int opcao;
+    double a, b, c, resultado;
+
+    do {
+        printf("\n=====================================\n");
+        printf("       CALCULADORA MATEMATICA\n");
+        printf("=====================================\n");
+        printf(" 1 - Soma\n");
+        printf(" 2 - Subtracao\n");
+        printf(" 3 - Multiplicacao\n");
+        printf(" 4 - Divisao\n");
+        printf(" 5 - Resto da divisao\n");
+        printf(" 6 - Potencia\n");
+        printf(" 7 - Raiz quadrada\n");
+        printf(" 8 - Media de 3 numeros\n");
+        printf(" 9 - Porcentagem\n");
+        printf("10 - Area do quadrado\n");
+        printf("11 - Area do retangulo\n");
+        printf("12 - Area do triangulo\n");
+        printf("13 - Area do circulo\n");
+        printf("14 - Perimetro do quadrado\n");
+        printf("15 - Perimetro do retangulo\n");
+        printf("16 - Circunferencia do circulo\n");
+        printf("17 - Teorema de Pitagoras\n");
+        printf("18 - Celsius para Fahrenheit\n");
+        printf("19 - Juros simples\n");
+        printf("20 - IMC\n");
+        printf(" 0 - Sair\n");
+        printf("=====================================\n");
+
+        printf("Escolha uma opcao: ");
+        scanf("%d", &opcao);
+
+        switch (opcao) {
+
+            case 1:
+                printf("\nDigite dois numeros: ");
+                scanf("%lf %lf", &a, &b);
+
+                resultado = a + b;
+
+                printf("Resultado: %.2f\n", resultado);
+                break;
+
+            case 2:
+                printf("\nDigite dois numeros: ");
+                scanf("%lf %lf", &a, &b);
+
+                resultado = a - b;
+
+                printf("Resultado: %.2f\n", resultado);
+                break;
+
+            case 3:
+                printf("\nDigite dois numeros: ");
+                scanf("%lf %lf", &a, &b);
+
+                resultado = a * b;
+
+                printf("Resultado: %.2f\n", resultado);
+                break;
+
+            case 4:
+                printf("\nDigite dois numeros: ");
+                scanf("%lf %lf", &a, &b);
+
+                if (b == 0) {
+                    printf("Erro: nao e possivel dividir por zero!\n");
+                } else {
+                    resultado = a / b;
+                    printf("Resultado: %.2f\n", resultado);
+                }
+                break;
+
+            case 5:
+                {
+                    int x, y;
+
+                    printf("\nDigite dois numeros inteiros: ");
+                    scanf("%d %d", &x, &y);
+
+                    if (y == 0) {
+                        printf("Erro: nao e possivel dividir por zero!\n");
+                    } else {
+                        printf("Resto: %d\n", x % y);
+                    }
+                }
+                break;
+
+            case 6:
+                printf("\nDigite a base: ");
+                scanf("%lf", &a);
+
+                printf("Digite o expoente: ");
+                scanf("%lf", &b);
+
+                resultado = pow(a, b);
+
+                printf("Resultado: %.2f\n", resultado);
+                break;
+
+            case 7:
+                printf("\nDigite um numero: ");
+                scanf("%lf", &a);
+
+                if (a < 0) {
+                    printf("Erro: nao existe raiz real de numero negativo.\n");
+                } else {
+                    resultado = sqrt(a);
+                    printf("Raiz quadrada: %.2f\n", resultado);
+                }
+                break;
+
+            case 8:
+                printf("\nDigite tres numeros: ");
+                scanf("%lf %lf %lf", &a, &b, &c);
+
+                resultado = (a + b + c) / 3;
+
+                printf("Media: %.2f\n", resultado);
+                break;
+
+            case 9:
+                printf("\nDigite o valor: ");
+                scanf("%lf", &a);
+
+                printf("Digite a porcentagem: ");
+                scanf("%lf", &b);
+
+                resultado = (a * b) / 100;
+
+                printf("%.2f%% de %.2f = %.2f\n",
+                       b, a, resultado);
+                break;
+
+            case 10:
+                printf("\nDigite o lado do quadrado: ");
+                scanf("%lf", &a);
+
+                resultado = a * a;
+
+                printf("Area do quadrado: %.2f\n", resultado);
+                break;
+
+            case 11:
+                printf("\nDigite a base: ");
+                scanf("%lf", &a);
+
+                printf("Digite a altura: ");
+                scanf("%lf", &b);
+
+                resultado = a * b;
+
+                printf("Area do retangulo: %.2f\n", resultado);
+                break;
+
+            case 12:
+                printf("\nDigite a base: ");
+                scanf("%lf", &a);
+
+                printf("Digite a altura: ");
+                scanf("%lf", &b);
+
+                resultado = (a * b) / 2;
+
+                printf("Area do triangulo: %.2f\n", resultado);
+                break;
+
+            case 13:
+                printf("\nDigite o raio: ");
+                scanf("%lf", &a);
+
+                resultado = M_PI * a * a;
+
+                printf("Area do circulo: %.2f\n", resultado);
+                break;
+
+            case 14:
+                printf("\nDigite o lado do quadrado: ");
+                scanf("%lf", &a);
+
+                resultado = 4 * a;
+
+                printf("Perimetro: %.2f\n", resultado);
+                break;
+
+            case 15:
+                printf("\nDigite a base: ");
+                scanf("%lf", &a);
+
+                printf("Digite a altura: ");
+                scanf("%lf", &b);
+
+                resultado = 2 * (a + b);
+
+                printf("Perimetro: %.2f\n", resultado);
+                break;
+
+            case 16:
+                printf("\nDigite o raio: ");
+                scanf("%lf", &a);
+
+                resultado = 2 * M_PI * a;
+
+                printf("Circunferencia: %.2f\n", resultado);
+                break;
+
+            case 17:
+                printf("\nDigite o primeiro cateto: ");
+                scanf("%lf", &a);
+
+                printf("Digite o segundo cateto: ");
+                scanf("%lf", &b);
+
+                resultado = sqrt((a * a) + (b * b));
+
+                printf("Hipotenusa: %.2f\n", resultado);
+                break;
+
+            case 18:
+                printf("\nDigite a temperatura em Celsius: ");
+                scanf("%lf", &a);
+
+                resultado = (a * 9 / 5) + 32;
+
+                printf("Fahrenheit: %.2f F\n", resultado);
+                break;
+
+            case 19:
+                printf("\nDigite o capital: ");
+                scanf("%lf", &a);
+
+                printf("Digite a taxa de juros (%%): ");
+                scanf("%lf", &b);
+
+                printf("Digite o tempo: ");
+                scanf("%lf", &c);
+
+                resultado = (a * b * c) / 100;
+
+                printf("Juros: %.2f\n", resultado);
+                printf("Montante: %.2f\n", a + resultado);
+                break;
+
+            case 20:
+                printf("\nDigite seu peso em kg: ");
+                scanf("%lf", &a);
+
+                printf("Digite sua altura em metros: ");
+                scanf("%lf", &b);
+
+                if (b <= 0) {
+                    printf("Erro: altura invalida.\n");
+                } else {
+                    resultado = a / (b * b);
+
+                    printf("IMC: %.2f\n", resultado);
+                }
+                break;
+
+            case 0:
+                printf("\nPrograma encerrado.\n");
+                break;
+
+            default:
+                printf("\nOpcao invalida!\n");
+        }
+
+    } while (opcao != 0);
+
+    return 0;
+}

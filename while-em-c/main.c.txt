@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int numero, quantidade;
+    int contador = 1;
+
+    printf("Digite um numero: ");
+    scanf("%d", &numero);
+
+    printf("Quantas vezes deseja repetir? ");
+    scanf("%d", &quantidade);
+
+    while (contador <= quantidade) {
+        printf("%d\n", numero);
+        contador++;
+    }
+
+    return 0;
+}

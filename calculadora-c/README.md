@@ -47,7 +47,7 @@ Este projeto foi desenvolvido com o intuito de praticar e consolidar conceitos f
 - Compilador C (GCC recomendado)
 - Biblioteca matemática (`math.h`)
 
-## ⚙️ Como funciona
+##  Como funciona
 
 O programa exibe um menu interativo em loop. O usuário escolhe uma opção digitando o número correspondente e, em seguida, informa os valores solicitados.  
 

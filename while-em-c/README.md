@@ -1,4 +1,4 @@
-## Repetição de Número em C
+## Estrutura de repetição em C
 
 Este projeto é um programa simples desenvolvido em linguagem C que solicita ao usuário um número e a quantidade de vezes que ele deseja repeti-lo. Em seguida, o programa exibe o número informado na tela pelo número de vezes escolhido.
 
